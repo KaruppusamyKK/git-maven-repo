@@ -8,11 +8,11 @@
         <version>3.4.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>org.payment.entity</groupId>
-    <artifactId>CommonEntity</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>CommonEntity</name>
-    <description>CommonEntity</description>
+    <groupId>org.payment.entity11111</groupId>
+    <artifactId>commonentitusd8sudsdsdsds</artifactId>
+    <version>0.0.1</version>
+    <name>CommonEntity11111</name>
+    <description>CommonEntity111111</description>
     <url/>
     <licenses>
         <license/>
@@ -21,13 +21,14 @@
         <developer/>
     </developers>
     <scm>
-        <connection/>
-        <developerConnection/>
-        <tag/>
-        <url/>
+        <connection>scm:git:git://github.com/Karuppusamy_kk/common-entities.git</connection>
+        <developerConnection>scm:git:ssh://github.com/Karuppusamy_kk/common-entities.git</developerConnection>
+        <url>https://github.com/Karuppusamy_kk/common-entities</url>
     </scm>
+
     <properties>
         <java.version>17</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
         <dependency>
@@ -61,8 +62,35 @@
         </dependency>
     </dependencies>
 
+<!--    <build>-->
+<!--        <plugins>-->
+<!--            <plugin>-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-jar-plugin</artifactId>-->
+<!--                <configuration>-->
+<!--                    <archive>-->
+<!--                        <manifest>-->
+<!--                            <addClasspath>true</addClasspath>-->
+<!--                            <classpathPrefix>lib/</classpathPrefix>-->
+<!--                            <mainClass>org.payment.entity.commonentity.CommonEntityApplication</mainClass>-->
+<!--                        </manifest>-->
+<!--                    </archive>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
+<!--        </plugins>-->
+<!--    </build>-->
+
+
     <build>
         <plugins>
+            <!-- maven-resources-plugin -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>3.1.0</version>
+            </plugin>
+
+            <!-- maven-jar-plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
