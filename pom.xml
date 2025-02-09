@@ -8,11 +8,11 @@
         <version>3.4.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>org.payment.entity11111</groupId>
-    <artifactId>commonentitusd8sudsdsdsds</artifactId>
+    <groupId>org.payment.entity</groupId> <!-- Change to lowercase -->
+    <artifactId>commonentity</artifactId> <!-- Change to lowercase -->
     <version>0.0.1</version>
-    <name>CommonEntity11111</name>
-    <description>CommonEntity111111</description>
+    <name>commonentity</name> <!-- Change to lowercase -->
+    <description>CommonEntity</description>
     <url/>
     <licenses>
         <license/>
@@ -62,25 +62,6 @@
         </dependency>
     </dependencies>
 
-<!--    <build>-->
-<!--        <plugins>-->
-<!--            <plugin>-->
-<!--                <groupId>org.apache.maven.plugins</groupId>-->
-<!--                <artifactId>maven-jar-plugin</artifactId>-->
-<!--                <configuration>-->
-<!--                    <archive>-->
-<!--                        <manifest>-->
-<!--                            <addClasspath>true</addClasspath>-->
-<!--                            <classpathPrefix>lib/</classpathPrefix>-->
-<!--                            <mainClass>org.payment.entity.commonentity.CommonEntityApplication</mainClass>-->
-<!--                        </manifest>-->
-<!--                    </archive>-->
-<!--                </configuration>-->
-<!--            </plugin>-->
-<!--        </plugins>-->
-<!--    </build>-->
-
-
     <build>
         <plugins>
             <!-- maven-resources-plugin -->
@@ -120,6 +101,5 @@
             <url>https://maven.pkg.github.com/Karuppusamy_kk/common-entities</url>
         </repository>
     </repositories>
-
 
 </project>
