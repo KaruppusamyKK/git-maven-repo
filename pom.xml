@@ -21,9 +21,6 @@
         <developer/>
     </developers>
     <scm>
-        <connection>scm:git:git://github.com/Karuppusamy_kk/common-entities.git</connection>
-        <developerConnection>scm:git:ssh://github.com/Karuppusamy_kk/common-entities.git</developerConnection>
-        <url>https://github.com/Karuppusamy_kk/common-entities</url>
     </scm>
 
     <properties>
@@ -91,15 +88,16 @@
     <distributionManagement>
         <repository>
             <id>github</id>
-            <url>https://maven.pkg.github.com/Karuppusamy_kk/common-entities</url>
+            <url>https://maven.pkg.github.com/KaruppusamyKK/git-maven-repo</url>
         </repository>
     </distributionManagement>
 
     <repositories>
         <repository>
             <id>github</id>
-            <url>https://maven.pkg.github.com/Karuppusamy_kk/common-entities</url>
+            <url>https://maven.pkg.github.com/KaruppusamyKK/git-maven-repo</url>
         </repository>
     </repositories>
+
 
 </project>
