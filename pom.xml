@@ -10,7 +10,7 @@
     </parent>
     <groupId>org.payment.entity</groupId> <!-- Change to lowercase -->
     <artifactId>commonentity</artifactId> <!-- Change to lowercase -->
-    <version>0.0.1</version>
+    <version>0.0.5</version>
     <name>commonentity</name> <!-- Change to lowercase -->
     <description>CommonEntity</description>
     <url/>
